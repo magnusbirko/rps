@@ -25,12 +25,5 @@ function playRound() {
     alert("Computer wins a point!");
     computerScore++;
   }
-  console.log("Your score is : ", humanScore);
-  console.log("Computers score is : ", computerScore);
-  if (humanScore === 10) {
-    alert("You win!");
-  } else if (computerScore === 10) {
-    alert("Computer wins!");
-  } else playRound();
 }
 playRound();
